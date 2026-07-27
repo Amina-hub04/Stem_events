@@ -1,9 +1,10 @@
 import requests
 import os
 import time
+import json
 from ai_extract import extract_events_from_text, safe_get
 
-# Sources list (example)
+# Sources list
 SOURCES = [
     {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"},
     {"name": "EventAlways - ICSTM 2026", "url": "https://www.eventalways.com/international-conference-on-science-technology-and-management-icstm-226123"},
@@ -29,17 +30,20 @@ def run_pipeline():
             print(f"⚠️ No events extracted for {source['name']}, skipping...")
             continue
 
-        print(f"✅ Found {len(events)} raw event(s).")
-        all_events.extend(events)
+        if isinstance(events, list):
+            print(f"✅ Found {len(events)} raw event(s).")
+            all_events.extend(events)
+        else:
+            print(f"⚠️ Unexpected data format for {source['name']}, skipping...")
 
-    # Save results
-    if all_events:
-        with open("events_output.json", "w", encoding="utf-8") as f:
-            import json
+    # Always save results (even empty)
+    with open("events_output.json", "w", encoding="utf-8") as f:
+        if all_events:
             json.dump(all_events, f, indent=2, ensure_ascii=False)
-        print("🎉 Events saved to events_output.json")
-    else:
-        print("⚠️ No events found at all.")
+            print("🎉 Events saved to events_output.json")
+        else:
+            json.dump([], f, indent=2, ensure_ascii=False)
+            print("⚠️ No events found, saved empty events_output.json")
 
 if __name__ == "__main__":
     run_pipeline()
