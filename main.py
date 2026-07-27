@@ -16,12 +16,15 @@ def is_in_timeline(event_date_str):
     except Exception:
         return False
 
-# 👇 Pakistan event sources
+# 👇 Pakistan event sources (expanded)
 SOURCES = [
     {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"},
     {"name": "EventAlways - ICSTM 2026", "url": "https://www.eventalways.com/international-conference-on-science-technology-and-management-icstm-226123"},
     {"name": "Pakistan Expo Centres", "url": "https://www.pakexcel.com"},
     {"name": "AllEvents - Lahore Technology", "url": "https://allevents.in/lahore/technology"},
+    {"name": "TechDestination Events", "url": "https://techdestination.com/events"},
+    {"name": "Pakistani IT Expo", "url": "https://example.com/pakistan-it-expo"},
+    {"name": "University STEM Conferences", "url": "https://example.com/university-stem-events"}
 ]
 
 def run_pipeline():
