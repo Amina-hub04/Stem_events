@@ -1,5 +1,6 @@
 import os
 import time
+import json
 import requests
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -39,14 +40,47 @@ def safe_get(url, max_retries=3):
             time.sleep(5)
     return None
 
-# Example usage inside your pipeline
+# Refined AI extraction function
 def extract_events_from_text(text, source_name):
+    prompt = f"""
+    Extract upcoming STEM (Science, Technology, Engineering, Maths) events 
+    from the following text.
+
+    Output must be a JSON array with fields:
+    - name
+    - date (YYYY-MM-DD format)
+    - location
+    - topic
+
+    Skip events without a valid date.
+    Source: {source_name}
+    Text: {text}
+    """
+
     data = {
-        "contents": [{"parts": [{"text": text}]}]
+        "contents": [{"parts": [{"text": prompt}]}]
     }
+
     try:
         result = safe_gemini_request(data)
-        return result
+
+        # Gemini response parsing
+        if "candidates" in result and len(result["candidates"]) > 0:
+            raw_text = result["candidates"][0]["content"]["parts"][0]["text"]
+            try:
+                events = json.loads(raw_text)
+                if isinstance(events, list):
+                    return events
+                else:
+                    print("⚠️ AI did not return a list, skipping...")
+                    return None
+            except Exception as e:
+                print(f"⚠️ Error parsing JSON: {e}")
+                return None
+        else:
+            print("⚠️ No candidates returned from Gemini.")
+            return None
+
     except Exception as e:
         print(f"Error extracting events for {source_name}: {e}")
         return None
