@@ -1,41 +1,38 @@
 name: Auto-refresh STEM events
 
 on:
+  workflow_dispatch:
   schedule:
-    # Runs every day at 06:00 UTC (11:00 AM Pakistan time). Adjust as needed.
-    - cron: "0 6 * * *"
-  workflow_dispatch:  # lets you trigger it manually from the Actions tab too
-
-permissions:
-  contents: write  # needed so the workflow can commit events_output.json back to the repo
+    - cron: "0 6 * * *"   # daily 06:00 UTC
 
 jobs:
   refresh-events:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-      - name: Check out repo
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          playwright install --with-deps chromium
+        run: pip install -r requirements.txt
 
-      - name: Run pipeline
+      - name: Run scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python main.py
 
       - name: Commit updated events_output.json
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add events_output.json
-          git diff --staged --quiet && echo "No changes to commit" || git commit -m "Auto-refresh events_output.json"
+          git commit -m "Update events_output.json" || echo "No changes to commit"
           git push
