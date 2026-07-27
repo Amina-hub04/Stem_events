@@ -1,92 +1,52 @@
-"""
-Uses Gemini to extract structured event data from a page's raw text.
-This is the "AI" part of the pipeline: one prompt handles every site's
-different HTML layout instead of writing a custom parser per source.
-"""
-
-import json
-import re
+import os
+import time
 import requests
 
-from config import GEMINI_API_KEY
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
-def safe_request(url, headers, data):
-    for attempt in range(5):
-        resp = requests.post(url, headers=headers, json=data)
+# Safe request wrapper for Gemini API
+def safe_gemini_request(data, max_retries=5, wait=10):
+    headers = {"Content-Type": "application/json"}
+    for attempt in range(max_retries):
+        resp = requests.post(GEMINI_URL, headers=headers, json=data)
         if resp.status_code == 429:  # Too Many Requests
-            print("Rate limit hit, waiting...")
-            time.sleep(10)  # wait before retry
+            print("Rate limit hit, waiting before retry...")
+            time.sleep(wait)
             continue
+        if resp.status_code == 401:  # Unauthorized
+            raise Exception("Gemini API Unauthorized – check your API key.")
         resp.raise_for_status()
-        return resp
-    raise Exception("Gemini API failed after retries") 
+        return resp.json()
+    raise Exception("Gemini API failed after retries")
 
-headers = {"User-Agent": "Mozilla/5.0"}
-resp = requests.get(url, headers=headers)
+# Safe GET request for scraping sites
+def safe_get(url, max_retries=3):
+    headers = {"User-Agent": "Mozilla/5.0"}
+    for attempt in range(max_retries):
+        try:
+            resp = requests.get(url, headers=headers, timeout=15, verify=False)
+            if resp.status_code == 403:
+                print(f"Skipped (403 Forbidden for url: {url})")
+                return None
+            resp.raise_for_status()
+            return resp.text
+        except requests.exceptions.SSLError:
+            print(f"Skipped (SSL error for url: {url})")
+            return None
+        except requests.exceptions.RequestException as e:
+            print(f"Attempt {attempt+1} failed: {e}")
+            time.sleep(5)
+    return None
 
-resp = requests.get(url, headers=headers, verify=False)
-
-GEMINI_URL = (
-    "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.0-flash:generateContent?key={key}"
-)
-
-EXTRACTION_PROMPT = """You are extracting event listings from a webpage's text content.
-
-From the text below, find every distinct event related to Science, Technology,
-Engineering, or Maths (conferences, expos, workshops, hackathons, symposiums, etc).
-
-For each event, return a JSON object with these fields:
-- "title": event name
-- "date": event date as written on the page (keep original format, e.g. "May 2026" or "12 Aug 2026")
-- "location": city/venue if mentioned, else ""
-- "category": one of ["Science", "Technology", "Engineering", "Maths", "General STEM"]
-- "source_note": one short phrase from the page giving context (not a full sentence copy)
-
-Return ONLY a JSON array, no other text, no markdown fences. If no events found, return [].
-
-PAGE TEXT:
----
-{page_text}
----
-"""
-
-
-def extract_events_from_text(page_text: str, source_name: str) -> list:
-    if not GEMINI_API_KEY:
-        raise RuntimeError("Set GEMINI_API_KEY environment variable before running AI extraction.")
-
-    # Trim very long pages to keep prompt reasonable
-    trimmed = page_text[:12000]
-
-    payload = {
-        "contents": [
-            {"parts": [{"text": EXTRACTION_PROMPT.format(page_text=trimmed)}]}
-        ]
+# Example usage inside your pipeline
+def extract_events_from_text(text, source_name):
+    data = {
+        "contents": [{"parts": [{"text": text}]}]
     }
-
-    resp = requests.post(
-        GEMINI_URL.format(key=GEMINI_API_KEY),
-        json=payload,
-        timeout=30,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-
     try:
-        raw_text = data["candidates"][0]["content"]["parts"][0]["text"]
-    except (KeyError, IndexError):
-        return []
-
-    # Strip accidental markdown fences if the model adds them
-    cleaned = re.sub(r"^```json|```$", "", raw_text.strip(), flags=re.MULTILINE).strip()
-
-    try:
-        events = json.loads(cleaned)
-    except json.JSONDecodeError:
-        return []
-
-    for e in events:
-        e["source"] = source_name
-
-    return events
+        result = safe_gemini_request(data)
+        return result
+    except Exception as e:
+        print(f"Error extracting events for {source_name}: {e}")
+        return None
