@@ -21,6 +21,11 @@ def safe_request(url, headers, data):
         return resp
     raise Exception("Gemini API failed after retries") 
 
+headers = {"User-Agent": "Mozilla/5.0"}
+resp = requests.get(url, headers=headers)
+
+resp = requests.get(url, headers=headers, verify=False)
+
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
     "gemini-2.0-flash:generateContent?key={key}"
