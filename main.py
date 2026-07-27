@@ -1,59 +1,45 @@
-"""
-Main pipeline: run this on a schedule (cron / GitHub Actions) to keep
-the events list auto-populated.
+import requests
+import os
+import time
+from ai_extract import extract_events_from_text, safe_get
 
-Usage:
-    export GEMINI_API_KEY=your_key_here
-    python main.py
-"""
-
-import json
-
-from config import SOURCES, OUTPUT_JSON
-from scraper import fetch_source, fetch_page_html_with_playwright
-from ai_extract import extract_events_from_text
-from filters import apply_filters
-
+# Sources list (example)
+SOURCES = [
+    {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"},
+    {"name": "EventAlways - ICSTM 2026", "url": "https://www.eventalways.com/international-conference-on-science-technology-and-management-icstm-226123"},
+    {"name": "Pakistan Expo Centres", "url": "https://www.pakexcel.com"},
+    {"name": "AllEvents - Lahore Technology", "url": "https://allevents.in/lahore/technology"},
+]
 
 def run_pipeline():
     all_events = []
 
     for source in SOURCES:
         print(f"Fetching: {source['name']}...")
-        result = fetch_source(source)
+        text = safe_get(source["url"])  # safe_get handles SSL + 403
 
-        if result.get("error"):
-            print(f"  Skipped ({result['error']})")
+        if text is None:
+            print(f"⚠️ Skipped {source['name']} (no data)")
             continue
 
-        text = result["text"]
-        if result.get("needs_js"):
-            print("  Static fetch too thin, retrying with Playwright...")
-            try:
-                text = fetch_page_html_with_playwright(source["url"])
-            except Exception as e:
-                print(f"  Playwright fallback failed: {e}")
-                continue
-
-        if not text:
-            print("  No content extracted, skipping.")
-            continue
-
-        print("  Extracting events with AI...")
+        print("Extracting events with AI...")
         events = extract_events_from_text(text, source["name"])
-        print(f"  Found {len(events)} raw event(s).")
+
+        if events is None:
+            print(f"⚠️ No events extracted for {source['name']}, skipping...")
+            continue
+
+        print(f"✅ Found {len(events)} raw event(s).")
         all_events.extend(events)
 
-    print(f"\nTotal raw events collected: {len(all_events)}")
-    final_events = apply_filters(all_events)
-    print(f"Events in STEM + date window: {len(final_events)}")
-
-    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-        json.dump(final_events, f, indent=2, ensure_ascii=False)
-
-    print(f"Saved to {OUTPUT_JSON}")
-    return final_events
-
+    # Save results
+    if all_events:
+        with open("events_output.json", "w", encoding="utf-8") as f:
+            import json
+            json.dump(all_events, f, indent=2, ensure_ascii=False)
+        print("🎉 Events saved to events_output.json")
+    else:
+        print("⚠️ No events found at all.")
 
 if __name__ == "__main__":
     run_pipeline()
