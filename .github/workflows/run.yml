@@ -36,3 +36,4 @@ jobs:
           git add events_output.json
           git commit -m "Update events_output.json" || echo "No changes to commit"
           git push
+
