@@ -2,9 +2,21 @@ import requests
 import os
 import time
 import json
+from datetime import datetime, timedelta
 from ai_extract import extract_events_from_text, safe_get
 
-# Sources list
+# 👇 Timeline filter function
+def is_in_timeline(event_date_str):
+    try:
+        event_date = datetime.strptime(event_date_str, "%Y-%m-%d")
+        today = datetime.today()
+        past_limit = today - timedelta(days=30)
+        future_limit = today + timedelta(days=60)
+        return past_limit <= event_date <= future_limit
+    except Exception:
+        return False
+
+# 👇 Pakistan event sources
 SOURCES = [
     {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"},
     {"name": "EventAlways - ICSTM 2026", "url": "https://www.eventalways.com/international-conference-on-science-technology-and-management-icstm-226123"},
@@ -30,13 +42,19 @@ def run_pipeline():
             print(f"⚠️ No events extracted for {source['name']}, skipping...")
             continue
 
-        if isinstance(events, list):
-            print(f"✅ Found {len(events)} raw event(s).")
-            all_events.extend(events)
-        else:
-            print(f"⚠️ Unexpected data format for {source['name']}, skipping...")
+        # 👇 Timeline filter applied here
+        filtered_events = []
+        for ev in events:
+            if "date" in ev and is_in_timeline(ev["date"]):
+                filtered_events.append(ev)
 
-    # Always save results (even empty)
+        if filtered_events:
+            print(f"✅ {len(filtered_events)} events kept for timeline.")
+            all_events.extend(filtered_events)
+        else:
+            print(f"⚠️ No events in timeline for {source['name']}.")
+
+    # 👇 Always save results (even empty)
     with open("events_output.json", "w", encoding="utf-8") as f:
         if all_events:
             json.dump(all_events, f, indent=2, ensure_ascii=False)
