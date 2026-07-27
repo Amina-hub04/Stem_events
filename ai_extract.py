@@ -10,6 +10,17 @@ import requests
 
 from config import GEMINI_API_KEY
 
+def safe_request(url, headers, data):
+    for attempt in range(5):
+        resp = requests.post(url, headers=headers, json=data)
+        if resp.status_code == 429:  # Too Many Requests
+            print("Rate limit hit, waiting...")
+            time.sleep(10)  # wait before retry
+            continue
+        resp.raise_for_status()
+        return resp
+    raise Exception("Gemini API failed after retries") 
+
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
     "gemini-2.0-flash:generateContent?key={key}"
