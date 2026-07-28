@@ -16,15 +16,12 @@ def is_in_timeline(event_date_str):
     except Exception:
         return False
 
-# 👇 Pakistan event sources (expanded)
+# 👇 Pakistan event sources (shortened for stability)
 SOURCES = [
     {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"},
-    {"name": "EventAlways - ICSTM 2026", "url": "https://www.eventalways.com/international-conference-on-science-technology-and-management-icstm-226123"},
-    {"name": "Pakistan Expo Centres", "url": "https://www.pakexcel.com"},
     {"name": "AllEvents - Lahore Technology", "url": "https://allevents.in/lahore/technology"},
-    {"name": "TechDestination Events", "url": "https://techdestination.com/events"},
-    {"name": "Pakistani IT Expo", "url": "https://example.com/pakistan-it-expo"},
-    {"name": "University STEM Conferences", "url": "https://example.com/university-stem-events"}
+    {"name": "TechDestination Events", "url": "https://techdestination.com/events"}
+    
 ]
 
 def run_pipeline():
@@ -56,6 +53,9 @@ def run_pipeline():
             all_events.extend(filtered_events)
         else:
             print(f"⚠️ No events in timeline for {source['name']}.")
+
+        # 👇 Add longer delay between API calls
+        time.sleep(5)
 
     # 👇 Always save results (even empty)
     with open("events_output.json", "w", encoding="utf-8") as f:
