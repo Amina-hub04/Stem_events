@@ -6,10 +6,11 @@ import urllib3
 from datetime import datetime, timedelta
 from ai_extract import extract_events_from_text, safe_get
 
-# 👇 Disable SSL warnings
+# Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# 👇 Timeline filter function
+
+# Timeline filter function
 def is_in_timeline(event_date_str):
     try:
         event_date = datetime.strptime(event_date_str, "%Y-%m-%d")
@@ -20,13 +21,14 @@ def is_in_timeline(event_date_str):
     except Exception:
         return False
 
-# 👇 Pakistan event sources (shortened for stability)
+
+# Pakistan event sources
 SOURCES = [
     {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"},
     {"name": "AllEvents - Lahore Technology", "url": "https://allevents.in/lahore/technology"},
-    {"name": "TechDestination Events", "url": "https://techdestination.com/events"}
-    
+    {"name": "TechDestination Events", "url": "https://techdestination.com/events-and-delegations/"},
 ]
+
 
 def run_pipeline():
     all_events = []
@@ -46,7 +48,11 @@ def run_pipeline():
             print(f"⚠️ No events extracted for {source['name']}, skipping...")
             continue
 
-        # 👇 Timeline filter applied here
+        print(f"🔍 Raw events found: {len(events)}")
+        for ev in events[:5]:
+            print(f"   {ev}")
+
+        # Timeline filter applied here
         filtered_events = []
         for ev in events:
             if "date" in ev and is_in_timeline(ev["date"]):
@@ -58,10 +64,10 @@ def run_pipeline():
         else:
             print(f"⚠️ No events in timeline for {source['name']}.")
 
-        # 👇 Add longer delay between API calls
-        time.sleep(5)
+        # Delay between API calls to respect rate limits
+        time.sleep(10)
 
-    # 👇 Always save results (even empty)
+    # Always save results (even empty)
     with open("events_output.json", "w", encoding="utf-8") as f:
         if all_events:
             json.dump(all_events, f, indent=2, ensure_ascii=False)
@@ -69,6 +75,7 @@ def run_pipeline():
         else:
             json.dump([], f, indent=2, ensure_ascii=False)
             print("⚠️ No events found, saved empty events_output.json")
+
 
 if __name__ == "__main__":
     run_pipeline()

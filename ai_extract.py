@@ -2,28 +2,25 @@ import os
 import time
 import json
 import requests
+from bs4 import BeautifulSoup
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
-# Safe request wrapper for Gemini API
-def safe_gemini_request(data, max_retries=5, wait=10):
-    headers = {"Content-Type": "application/json"}
-    for attempt in range(max_retries):
-        resp = requests.post(GEMINI_URL, headers=headers, json=data)
-        if resp.status_code == 429:  # Too Many Requests
-            print("Rate limit hit, waiting before retry...")
-            time.sleep(wait)
-            continue
-        if resp.status_code == 401:  # Unauthorized
-            raise Exception("Gemini API Unauthorized – check your API key.")
-        resp.raise_for_status()
-        return resp.json()
-    raise Exception("Gemini API failed after retries")
 
-# Safe GET request for scraping sites
+# Safe GET request for scraping sites - returns clean visible text, not raw HTML
 def safe_get(url, max_retries=3):
-    headers = {"User-Agent": "Mozilla/5.0"}
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.google.com/",
+    }
     for attempt in range(max_retries):
         try:
             resp = requests.get(url, headers=headers, timeout=15, verify=False)
@@ -31,7 +28,18 @@ def safe_get(url, max_retries=3):
                 print(f"Skipped (403 Forbidden for url: {url})")
                 return None
             resp.raise_for_status()
-            return resp.text
+
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for tag in soup(["script", "style", "noscript", "svg"]):
+                tag.decompose()
+            text = soup.get_text(separator="\n")
+            lines = [line.strip() for line in text.splitlines() if line.strip()]
+            clean_text = "\n".join(lines)
+
+            if len(clean_text) < 200:
+                print(f"⚠️ Very little text found for {url} — page may need JavaScript to render.")
+
+            return clean_text
         except requests.exceptions.SSLError:
             print(f"Skipped (SSL error for url: {url})")
             return None
@@ -40,10 +48,35 @@ def safe_get(url, max_retries=3):
             time.sleep(5)
     return None
 
-# Refined AI extraction function
+
+# Safe request wrapper for Groq API (retries on rate limit)
+def safe_groq_request(payload, max_retries=5, wait=10):
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+    }
+    for attempt in range(max_retries):
+        resp = requests.post(GROQ_URL, headers=headers, json=payload, timeout=30)
+        if resp.status_code == 429:
+            print(f"Rate limit hit, waiting {wait}s before retry...")
+            time.sleep(wait)
+            wait += 5
+            continue
+        if resp.status_code == 401:
+            raise Exception("Groq API Unauthorized - check your GROQ_API_KEY.")
+        resp.raise_for_status()
+        return resp.json()
+    raise Exception("Groq API failed after retries")
+
+
+# AI extraction function (schema: name, date, location, topic)
 def extract_events_from_text(text, source_name):
+    if not GROQ_API_KEY:
+        print("⚠️ GROQ_API_KEY not set.")
+        return None
+
     prompt = f"""
-    Extract upcoming STEM (Science, Technology, Engineering, Maths) events 
+    Extract upcoming STEM (Science, Technology, Engineering, Maths) events
     from the following text.
 
     Output must be a JSON array with fields:
@@ -52,33 +85,38 @@ def extract_events_from_text(text, source_name):
     - location
     - topic
 
-    Skip events without a valid date.
+    Skip events without a valid date. Return ONLY the JSON array, no other text,
+    no markdown fences. If no events found, return [].
+
     Source: {source_name}
-    Text: {text}
+    Text: {text[:12000]}
     """
 
-    data = {
-        "contents": [{"parts": [{"text": prompt}]}]
+    payload = {
+        "model": GROQ_MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.2,
     }
 
     try:
-        result = safe_gemini_request(data)
+        result = safe_groq_request(payload)
 
-        # Gemini response parsing
-        if "candidates" in result and len(result["candidates"]) > 0:
-            raw_text = result["candidates"][0]["content"]["parts"][0]["text"]
-            try:
-                events = json.loads(raw_text)
-                if isinstance(events, list):
-                    return events
-                else:
-                    print("⚠️ AI did not return a list, skipping...")
-                    return None
-            except Exception as e:
-                print(f"⚠️ Error parsing JSON: {e}")
+        raw_text = result["choices"][0]["message"]["content"].strip()
+
+        if raw_text.startswith("```"):
+            raw_text = raw_text.strip("`")
+            raw_text = raw_text.replace("json", "", 1).strip()
+
+        try:
+            events = json.loads(raw_text)
+            if isinstance(events, list):
+                return events
+            else:
+                print("⚠️ AI did not return a list, skipping...")
                 return None
-        else:
-            print("⚠️ No candidates returned from Gemini.")
+        except Exception as e:
+            print(f"⚠️ Error parsing JSON: {e}")
+            print(f"   Raw AI response was: {raw_text[:300]}")
             return None
 
     except Exception as e:

@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "name": "Young Leaders Summit 4.0",
+    "date": "2026-08-06",
+    "location": "Lahore, Punjab, Pakistan",
+    "topic": "Technology"
+  },
+  {
+    "name": "Build Asia Exhibition",
+    "date": "2026-08-06",
+    "location": "Expo Centre",
+    "topic": "Technology"
+  },
+  {
+    "name": "8th FutureHR Network Meetup - 15 August 2026",
+    "date": "2026-08-15",
+    "location": "CrecenTech Systems",
+    "topic": "Technology"
+  },
+  {
+    "name": "Free SAP MM – Material Management Supply Chain Intro",
+    "date": "2026-08-01",
+    "location": "Lahore",
+    "topic": "Technology"
+  }
+]
