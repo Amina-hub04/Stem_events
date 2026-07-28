@@ -21,10 +21,8 @@ def is_in_timeline(event_date_str):
         return False
 
 # 👇 Pakistan event sources (shortened for stability)
-SOURCES = [
-    {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"},
-    {"name": "AllEvents - Lahore Technology", "url": "https://allevents.in/lahore/technology"}
-
+    SOURCES = [
+    {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"}
 ]
 
 def run_pipeline():
