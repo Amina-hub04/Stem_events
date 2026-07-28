@@ -27,6 +27,8 @@ SOURCES = [
     {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"},
     {"name": "AllEvents - Lahore Technology", "url": "https://allevents.in/lahore/technology"},
     {"name": "TechDestination Events", "url": "https://techdestination.com/events-and-delegations/"},
+    {"name": "Pakistan Expo Centres", "url": "https://www.pakexcel.com/"},
+    {"name": "10Times - Pakistan Technology", "url": "https://10times.com/pakistan/technology"},
 ]
 
 
