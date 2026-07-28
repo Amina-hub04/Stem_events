@@ -2,8 +2,12 @@ import requests
 import os
 import time
 import json
+import urllib3
 from datetime import datetime, timedelta
 from ai_extract import extract_events_from_text, safe_get
+
+# 👇 Disable SSL warnings
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 👇 Timeline filter function
 def is_in_timeline(event_date_str):
