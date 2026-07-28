@@ -4,6 +4,7 @@ Add/remove sources here as you extend from Pakistan -> worldwide.
 """
 
 from datetime import date, timedelta
+import os
 
 # ---- Phase 1: Pakistan sources ----
 SOURCES = [
@@ -33,11 +34,21 @@ SOURCES = [
     },
 ]
 
-# ---- Phase 2: add worldwide sources here later, e.g. ----
-# SOURCES += [
-#     {"name": "10Times - Global Technology", "url": "https://10times.com/technology"},
-#     {"name": "Eventbrite - Science & Tech", "url": "https://www.eventbrite.com/d/online/science-and-tech--events/"},
-# ]
+# ---- Phase 2: Worldwide sources ----
+SOURCES += [
+    {
+        "name": "10Times - Global Technology",
+        "url": "https://10times.com/technology",
+    },
+    {
+        "name": "10Times - Global Science & Research",
+        "url": "https://10times.com/research",
+    },
+    {
+        "name": "10Times - Global Engineering",
+        "url": "https://10times.com/engineering",
+    },
+]
 
 # STEM keyword filter (used as a backstop check on top of AI classification)
 STEM_KEYWORDS = [
@@ -55,6 +66,5 @@ WINDOW_END = TODAY + timedelta(days=60)
 # Output storage
 OUTPUT_JSON = "events_output.json"
 
-# Gemini API key (set as an environment variable, don't hardcode)
-import os
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+# API key (set as environment variable, don't hardcode)
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
