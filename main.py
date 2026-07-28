@@ -21,7 +21,7 @@ SOURCES = [
     {"name": "EventAlways - Pakistan IT & Tech", "url": "https://www.eventalways.com/pakistan/it-technology"},
     {"name": "AllEvents - Lahore Technology", "url": "https://allevents.in/lahore/technology"},
     {"name": "TechDestination Events", "url": "https://techdestination.com/events"}
-    # Baaki sources temporarily comment out for free tier
+    
 ]
 
 def run_pipeline():
