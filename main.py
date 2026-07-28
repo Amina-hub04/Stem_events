@@ -57,6 +57,9 @@ def run_pipeline():
         else:
             print(f"⚠️ No events in timeline for {source['name']}.")
 
+        # 👇 Add delay between API calls
+        time.sleep(2)
+
     # 👇 Always save results (even empty)
     with open("events_output.json", "w", encoding="utf-8") as f:
         if all_events:
