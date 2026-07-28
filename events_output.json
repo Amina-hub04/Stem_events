@@ -20,7 +20,31 @@
   {
     "name": "Free SAP MM – Material Management Supply Chain Intro",
     "date": "2026-08-01",
-    "location": "Lahore",
+    "location": null,
     "topic": "Technology"
+  },
+  {
+    "name": "GSMA Digital Nation Summit Islamabad",
+    "date": "2026-07-28",
+    "location": "Islamabad",
+    "topic": "IT & Technology"
+  },
+  {
+    "name": "Imagining Futures Conference",
+    "date": "2026-08-07",
+    "location": "Karachi",
+    "topic": "IT & Technology, Education & Training"
+  },
+  {
+    "name": "ITCN Asia",
+    "date": "2026-09-22",
+    "location": "Karachi",
+    "topic": "IT & Technology, 3D Printing, eCommerce"
+  },
+  {
+    "name": "Digital Signage & Printing Asia",
+    "date": "2026-09-22",
+    "location": "Karachi",
+    "topic": "IT & Technology, Print & Printing, Packing & Packaging"
   }
 ]
