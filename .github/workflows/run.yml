@@ -29,10 +29,10 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python main.py
 
-      - name: Commit updated events_output.json
+      - name: Commit & Push results
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add events_output.json
-          git commit -m "Update events_output.json" || echo "No changes to commit"
+          git add events_output.json events_pakistan.json events_global.json
+          git commit -m "Auto-update events JSON" || echo "No changes to commit"
           git push
