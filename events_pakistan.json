@@ -1,12 +1,5 @@
 [
   {
-    "name": "GSMA Digital Nation Summit Islamabad",
-    "date": "2026-07-28",
-    "location": "Islamabad",
-    "topic": "IT & Technology",
-    "source": "10Times - Pakistan Technology"
-  },
-  {
     "name": "Imagining Futures Conference",
     "date": "2026-08-07",
     "location": "Karachi",
@@ -24,7 +17,7 @@
     "name": "Digital Signage & Printing Asia",
     "date": "2026-09-22",
     "location": "Karachi",
-    "topic": "IT & Technology, Print & Printing, Packing & Packaging",
+    "topic": "IT & Technology, Print & Printing, Sign Technology & Signages, Packing & Packaging",
     "source": "10Times - Pakistan Technology"
   }
 ]
