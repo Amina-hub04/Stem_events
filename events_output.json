@@ -21,18 +21,25 @@
     "source": "AllEvents - Lahore Technology"
   },
   {
-    "name": "Free Advanced Hacking Workshop: Next-Level Pentesting",
-    "date": "2026-08-01",
-    "location": null,
-    "topic": "Technology",
-    "source": "AllEvents - Lahore Technology"
+    "name": "EXPO FAISALABAD 2026",
+    "date": "2026-07-24",
+    "location": "Pakistan Expo Centres",
+    "topic": "General",
+    "source": "Pakistan Expo Centres"
   },
   {
-    "name": "Free SAP MM – Material Management Supply Chain Intro",
-    "date": "2026-08-01",
-    "location": null,
-    "topic": "Technology",
-    "source": "AllEvents - Lahore Technology"
+    "name": "ELECTRICITY PAKISTAN / EVS WORLD 2026",
+    "date": "2026-07-24",
+    "location": "Pakistan Expo Centres",
+    "topic": "Energy",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "EVS / EP",
+    "date": "2026-07-24",
+    "location": "Pakistan Expo Centres",
+    "topic": "Energy",
+    "source": "Pakistan Expo Centres"
   },
   {
     "name": "The News Education Expo",
@@ -52,77 +59,35 @@
     "name": "DIGITAL TEXTILE PRINTING INDUSTRY EXPO",
     "date": "2026-07-18",
     "location": "Pakistan Expo Centres",
-    "topic": "Textile Technology",
+    "topic": "Textile",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "Solar and Storage Pakistan",
     "date": "2026-07-10",
     "location": "Pakistan Expo Centres",
-    "topic": "Renewable Energy",
+    "topic": "Energy",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "Embroidery Machines Asia",
     "date": "2026-07-04",
     "location": "Pakistan Expo Centres",
-    "topic": "Textile Technology",
+    "topic": "Textile",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "Textile Asia & Chemical Dyes Stuff Asia",
     "date": "2026-07-04",
     "location": "Pakistan Expo Centres",
-    "topic": "Textile Technology",
+    "topic": "Textile",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "CFT & Digital Printing Asia",
     "date": "2026-07-04",
     "location": "Pakistan Expo Centres",
-    "topic": "Textile Technology",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "ELECTRICITY PAKISTAN / EVS WORLD 2026",
-    "date": "2026-07-24",
-    "location": "Pakistan Expo Centres",
-    "topic": "Electrical Engineering",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "EVS / EP",
-    "date": "2026-07-24",
-    "location": "Pakistan Expo Centres",
-    "topic": "Electrical Engineering",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "EXPO FAISALABAD 2026",
-    "date": "2026-07-24",
-    "location": "Pakistan Expo Centres",
-    "topic": "Trade and Industry",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "BUILD ASIA 2026",
-    "date": "2026-08-06",
-    "location": "Pakistan Expo Centres",
-    "topic": "Construction and Building",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "Pakistan Interiors Furniture Expo",
-    "date": "2026-08-07",
-    "location": "Pakistan Expo Centres",
-    "topic": "Furniture Technology",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "MERA BRAND PAKISTAN",
-    "date": "2026-08-14",
-    "location": "Pakistan Expo Centres",
-    "topic": "Branding and Marketing",
+    "topic": "Textile",
     "source": "Pakistan Expo Centres"
   },
   {
@@ -136,14 +101,14 @@
     "name": "ITCN Asia",
     "date": "2026-09-22",
     "location": "Karachi",
-    "topic": "IT & Technology, 3D Printing, eCommerce",
+    "topic": "IT & Technology, eCommerce, 3D Printing",
     "source": "10Times - Pakistan Technology"
   },
   {
     "name": "Digital Signage & Printing Asia",
     "date": "2026-09-22",
     "location": "Karachi",
-    "topic": "IT & Technology, Print & Printing, Sign Technology & Signages",
+    "topic": "IT & Technology, Sign Technology & Signages, Print & Printing, Packing & Packaging",
     "source": "10Times - Pakistan Technology"
   },
   {
@@ -329,58 +294,9 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Texworld NYC & Apparel Sourcing NYC",
-    "date": "2026-07-29",
-    "location": "New York",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "Home Textiles Sourcing NYC",
-    "date": "2026-07-29",
-    "location": "New York",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "WPE & WHPE",
-    "date": "2026-08-24",
-    "location": "Xi'an",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "Bakery ASEAN",
-    "date": "2026-08-27",
-    "location": "Jakarta",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "Texworld Apparel Sourcing Paris",
-    "date": "2026-08-31",
-    "location": "Paris",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "WMF",
-    "date": "2026-09-05",
-    "location": "Shanghai",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "FISHEX",
-    "date": "2026-09-10",
-    "location": "Guangzhou",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "Malaysia Technology Expo (MTE)",
-    "date": "2026-07-29",
-    "location": "Kuala Lumpur, Malaysia",
+    "name": "Customer Experience Management Africa Summit (CEM Africa Summit)",
+    "date": "2026-08-18",
+    "location": "Cape Town, South Africa",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -392,9 +308,9 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Customer Experience Management Africa Summit (CEM Africa Summit)",
-    "date": "2026-08-18",
-    "location": "Cape Town, South Africa",
+    "name": "Malaysia Technology Expo (MTE)",
+    "date": "2026-07-29",
+    "location": "Kuala Lumpur, Malaysia",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -484,7 +400,7 @@
   },
   {
     "name": "International Conference on Wildlife Ecology, Rehabilitation and Conservation (ICWERC)",
-    "date": "2026-08-26",
+    "date": "2026-08-27",
     "location": "Paris, France & Online",
     "topic": "Animals & Pets, Science & Research",
     "source": "10Times - Global Science & Research"
@@ -619,7 +535,7 @@
     "name": "Diggers & Dealers Mining Forum",
     "date": "2026-08-03",
     "location": "Kalgoorlie, Australia",
-    "topic": "Minerals, Metals & Ores",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
@@ -661,7 +577,7 @@
     "name": "Electra Mining Africa",
     "date": "2026-09-07",
     "location": "Johannesburg, South Africa",
-    "topic": "Minerals, Metals & Ores",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
@@ -682,7 +598,7 @@
     "name": "Mining, Engineering & Transport Expo (MINE ENTRA)",
     "date": "2026-07-29",
     "location": "Bulawayo, Zimbabwe",
-    "topic": "Minerals, Metals & Ores",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
@@ -717,7 +633,7 @@
     "name": "China Guangzhou International Shoes Fair (InterShoetec)",
     "date": "2026-08-21",
     "location": "Guangzhou, China",
-    "topic": "Apparel & Clothing",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
