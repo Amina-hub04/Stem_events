@@ -10,7 +10,7 @@
     "name": "Hyderabad International Machine Tool & Engineering Expo (HIMTEX)",
     "date": "2026-08-20",
     "location": "Hyderabad, India",
-    "topic": "Industrial Engineering",
+    "topic": "Industrial Engineering, Automation & Robotics",
     "source": "10Times - Global Engineering"
   },
   {
@@ -21,16 +21,16 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "International Mattress Sub-Industry and Technologies Fair (IBIA Expo)",
-    "date": "2026-09-16",
-    "location": "Bakırköy, Turkey",
+    "name": "India International Footwear Fair (IIFF)",
+    "date": "2026-08-06",
+    "location": "New Delhi, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "India International Footwear Fair (IIFF)",
-    "date": "2026-08-06",
-    "location": "New Delhi, India",
+    "name": "International Mattress Sub-Industry and Technologies Fair (IBIA Expo)",
+    "date": "2026-09-16",
+    "location": "Bakırköy, Turkey",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -52,7 +52,7 @@
     "name": "Diggers & Dealers Mining Forum",
     "date": "2026-08-03",
     "location": "Kalgoorlie, Australia",
-    "topic": "Industrial Engineering",
+    "topic": "Minerals, Metals & Ores, Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
@@ -66,13 +66,6 @@
     "name": "DairyTech India",
     "date": "2026-08-21",
     "location": "Bengaluru, India",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Advanced Manufacturing Expo (AME)",
-    "date": "2026-07-29",
-    "location": "Grand Rapids, USA",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -94,13 +87,13 @@
     "name": "Electra Mining Africa",
     "date": "2026-09-07",
     "location": "Johannesburg, South Africa",
-    "topic": "Industrial Engineering",
+    "topic": "Minerals, Metals & Ores, Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Plastics Recycling Show India (PRS India)",
-    "date": "2026-08-31",
-    "location": "Mumbai, India",
+    "name": "Mining Expo & Conference",
+    "date": "2026-08-04",
+    "location": "Windhoek, Namibia",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -112,9 +105,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Mining, Engineering & Transport Expo (MINE ENTRA)",
-    "date": "2026-07-29",
-    "location": "Bulawayo, Zimbabwe",
+    "name": "Plastics Recycling Show India (PRS India)",
+    "date": "2026-08-31",
+    "location": "Mumbai, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -130,6 +123,13 @@
     "date": "2026-09-18",
     "location": "Mumbai, India",
     "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Mining, Engineering & Transport Expo (MINE ENTRA)",
+    "date": "2026-07-29",
+    "location": "Bulawayo, Zimbabwe",
+    "topic": "Minerals, Metals & Ores, Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
@@ -150,7 +150,7 @@
     "name": "China Guangzhou International Shoes Fair (InterShoetec)",
     "date": "2026-08-21",
     "location": "Guangzhou, China",
-    "topic": "Industrial Engineering",
+    "topic": "Apparel & Clothing, Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
