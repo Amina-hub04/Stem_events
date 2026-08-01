@@ -21,17 +21,38 @@
     "source": "AllEvents - Lahore Technology"
   },
   {
+    "name": "3P Plas Print Pack In Lahore(Sep 03-05)",
+    "date": "2026-09-03",
+    "location": "Expo Center, Johar Town, Lahore",
+    "topic": "Technology",
+    "source": "AllEvents - Lahore Technology"
+  },
+  {
+    "name": "Free Prompt Engineering: Get Better Results from AI",
+    "date": "2026-08-09",
+    "location": null,
+    "topic": "Technology",
+    "source": "AllEvents - Lahore Technology"
+  },
+  {
+    "name": "EXPO FAISALABAD 2026",
+    "date": "2026-07-24",
+    "location": "Pakistan Expo Centres",
+    "topic": "General",
+    "source": "Pakistan Expo Centres"
+  },
+  {
     "name": "ELECTRICITY PAKISTAN / EVS WORLD 2026",
     "date": "2026-07-24",
     "location": "Pakistan Expo Centres",
-    "topic": "Technology",
+    "topic": "Energy",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "EVS / EP",
     "date": "2026-07-24",
     "location": "Pakistan Expo Centres",
-    "topic": "Technology",
+    "topic": "Energy",
     "source": "Pakistan Expo Centres"
   },
   {
@@ -52,35 +73,49 @@
     "name": "DIGITAL TEXTILE PRINTING INDUSTRY EXPO",
     "date": "2026-07-18",
     "location": "Pakistan Expo Centres",
-    "topic": "Textile Technology",
+    "topic": "Textile",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "Solar and Storage Pakistan",
     "date": "2026-07-10",
     "location": "Pakistan Expo Centres",
-    "topic": "Renewable Energy",
+    "topic": "Energy",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "Embroidery Machines Asia",
     "date": "2026-07-04",
     "location": "Pakistan Expo Centres",
-    "topic": "Textile Technology",
+    "topic": "Textile",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "Textile Asia & Chemical Dyes Stuff Asia",
     "date": "2026-07-04",
     "location": "Pakistan Expo Centres",
-    "topic": "Textile Technology",
+    "topic": "Textile",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "CFT & Digital Printing Asia",
     "date": "2026-07-04",
     "location": "Pakistan Expo Centres",
-    "topic": "Textile Technology",
+    "topic": "Textile",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "BUILD ASIA 2026",
+    "date": "2026-08-06",
+    "location": "Pakistan Expo Centres",
+    "topic": "Construction",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "Pakistan Interiors Furniture Expo",
+    "date": "2026-08-07",
+    "location": "Pakistan Expo Centres",
+    "topic": "Furniture",
     "source": "Pakistan Expo Centres"
   },
   {
@@ -94,7 +129,7 @@
     "name": "ITCN Asia",
     "date": "2026-09-22",
     "location": "Karachi",
-    "topic": "IT & Technology, eCommerce, 3D Printing",
+    "topic": "IT & Technology, 3D Printing, eCommerce",
     "source": "10Times - Pakistan Technology"
   },
   {
@@ -126,13 +161,6 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "DataHack Summit",
-    "date": "2026-08-05",
-    "location": "Bengaluru, India",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
     "name": "International Conference on Engineering Technology, Applied Sciences, Computing & Networking (EACN)",
     "date": "2026-08-01",
     "location": "London, UK",
@@ -147,29 +175,15 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "LEAP Tech Conference",
-    "date": "2026-08-31",
-    "location": "Malham, Saudi Arabia",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "International Internet of Things Exhibition (IOTE)",
-    "date": "2026-08-26",
-    "location": "Shenzhen, China",
+    "name": "DataHack Summit",
+    "date": "2026-08-05",
+    "location": "Bengaluru, India",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
   {
     "name": "Future of Memory and Storage (FMS)",
     "date": "2026-08-04",
-    "location": "Santa Clara, USA",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "Silicon Valley International Invention Festival (SVIIF)",
-    "date": "2026-08-14",
     "location": "Santa Clara, USA",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
@@ -245,13 +259,6 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "SiGMA Africa (SiGMA Cape Town)",
-    "date": "2026-08-04",
-    "location": "Cape Town, South Africa",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
     "name": "Indonesia Digital Technology Expo (IDTEX)",
     "date": "2026-08-11",
     "location": "Jakarta, Indonesia",
@@ -280,6 +287,13 @@
     "source": "10Times - Global Technology"
   },
   {
+    "name": "SiGMA Africa (SiGMA Cape Town)",
+    "date": "2026-08-04",
+    "location": "Cape Town, South Africa",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
     "name": "Big Data & AI Paris",
     "date": "2026-09-15",
     "location": "Paris, France",
@@ -287,9 +301,16 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Customer Experience Management Africa Summit (CEM Africa Summit)",
-    "date": "2026-08-18",
-    "location": "Cape Town, South Africa",
+    "name": "LEAP Tech Conference",
+    "date": "2026-08-31",
+    "location": "Malham, Saudi Arabia",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "International Internet of Things Exhibition (IOTE)",
+    "date": "2026-08-26",
+    "location": "Shenzhen, China",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -303,7 +324,21 @@
   {
     "name": "Embedded World North America",
     "date": "2026-09-22",
-    "location": "Anaheim, USA",
+    "location": "Anaheim",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "Customer Experience Management Africa Summit (CEM Africa Summit)",
+    "date": "2026-08-18",
+    "location": "Cape Town, South Africa",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "Silicon Valley International Invention Festival (SVIIF)",
+    "date": "2026-08-14",
+    "location": "Santa Clara, USA",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -493,7 +528,7 @@
     "name": "Hyderabad International Machine Tool & Engineering Expo (HIMTEX)",
     "date": "2026-08-20",
     "location": "Hyderabad, India",
-    "topic": "Industrial Engineering, Automation & Robotics",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
@@ -535,7 +570,7 @@
     "name": "Diggers & Dealers Mining Forum",
     "date": "2026-08-03",
     "location": "Kalgoorlie, Australia",
-    "topic": "Minerals, Metals & Ores, Industrial Engineering",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
@@ -570,7 +605,7 @@
     "name": "Electra Mining Africa",
     "date": "2026-09-07",
     "location": "Johannesburg, South Africa",
-    "topic": "Minerals, Metals & Ores, Industrial Engineering",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
@@ -612,7 +647,7 @@
     "name": "Mining, Engineering & Transport Expo (MINE ENTRA)",
     "date": "2026-07-29",
     "location": "Bulawayo, Zimbabwe",
-    "topic": "Minerals, Metals & Ores, Industrial Engineering",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
@@ -633,7 +668,7 @@
     "name": "China Guangzhou International Shoes Fair (InterShoetec)",
     "date": "2026-08-21",
     "location": "Guangzhou, China",
-    "topic": "Apparel & Clothing, Industrial Engineering",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
