@@ -1,12 +1,5 @@
 [
   {
-    "name": "India Process Expo and Conference (IPEC)",
-    "date": "2026-07-30",
-    "location": "Hyderabad, India",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Hyderabad International Machine Tool & Engineering Expo (HIMTEX)",
     "date": "2026-08-20",
     "location": "Hyderabad, India",
@@ -17,6 +10,41 @@
     "name": "China International Furniture Machinery & Woodworking Machinery Fair (Shanghai) (WMF)",
     "date": "2026-09-05",
     "location": "Shanghai, China",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "WPE & WHPE",
+    "date": "2026-08-24",
+    "location": "Xi'an",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Bakery ASEAN",
+    "date": "2026-08-27",
+    "location": "Jakarta",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Texworld Apparel Sourcing Paris",
+    "date": "2026-08-31",
+    "location": "Paris",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "FISHEX",
+    "date": "2026-09-10",
+    "location": "Guangzhou",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Embedded World North America",
+    "date": "2026-09-22",
+    "location": "Anaheim",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -70,6 +98,13 @@
     "source": "10Times - Global Engineering"
   },
   {
+    "name": "IndExpo Hyderabad",
+    "date": "2026-09-04",
+    "location": "Hyderabad, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
     "name": "International Woodworking Fair (IWF Atlanta)",
     "date": "2026-08-25",
     "location": "Atlanta, USA",
@@ -91,20 +126,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Mining Expo & Conference",
-    "date": "2026-08-04",
-    "location": "Windhoek, Namibia",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "IndExpo Hyderabad",
-    "date": "2026-09-04",
-    "location": "Hyderabad, India",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Plastics Recycling Show India (PRS India)",
     "date": "2026-08-31",
     "location": "Mumbai, India",
@@ -112,9 +133,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China Composites Expo (CCE)",
-    "date": "2026-09-01",
-    "location": "Shanghai, China",
+    "name": "Mining Expo & Conference",
+    "date": "2026-08-04",
+    "location": "Windhoek, Namibia",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -126,9 +147,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Mining, Engineering & Transport Expo (MINE ENTRA)",
-    "date": "2026-07-29",
-    "location": "Bulawayo, Zimbabwe",
+    "name": "China Composites Expo (CCE)",
+    "date": "2026-09-01",
+    "location": "Shanghai, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -175,6 +196,20 @@
     "source": "10Times - Global Engineering"
   },
   {
+    "name": "Africa Down Under Conference",
+    "date": "2026-09-02",
+    "location": "Perth, Australia",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Industrial Armenia Expo",
+    "date": "2026-09-04",
+    "location": "Yerevan, Armenia",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
     "name": "Metal Expo Istanbul",
     "date": "2026-09-16",
     "location": "Bakırköy, Turkey",
@@ -189,16 +224,16 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Cambodia International Machinery Industrial Fair",
-    "date": "2026-08-13",
-    "location": "Phnom Penh, Cambodia",
+    "name": "Inter Foundry",
+    "date": "2026-09-10",
+    "location": "Coimbatore, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Africa Down Under Conference",
-    "date": "2026-09-02",
-    "location": "Perth, Australia",
+    "name": "Cambodia International Machinery Industrial Fair",
+    "date": "2026-08-13",
+    "location": "Phnom Penh, Cambodia",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }
