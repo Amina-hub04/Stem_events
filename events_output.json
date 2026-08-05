@@ -28,80 +28,87 @@
     "source": "AllEvents - Lahore Technology"
   },
   {
+    "name": "Free Advanced Excel - Basic to Advance  Free Workshop",
+    "date": "2026-08-22",
+    "location": "",
+    "topic": "Technology",
+    "source": "AllEvents - Lahore Technology"
+  },
+  {
     "name": "BUILD ASIA 2026",
     "date": "2026-08-06",
-    "location": "",
+    "location": "Pakistan Expo Centres",
     "topic": "Construction",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "Pakistan Interiors Furniture Expo",
     "date": "2026-08-07",
-    "location": "",
+    "location": "Pakistan Expo Centres",
     "topic": "Furniture",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "Launch Event",
     "date": "2026-08-11",
-    "location": "",
+    "location": "Pakistan Expo Centres",
     "topic": "Technology",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "PR Event",
     "date": "2026-08-02",
-    "location": "",
+    "location": "Pakistan Expo Centres",
     "topic": "Public Relations",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "EXPO FAISALABAD 2026",
     "date": "2026-07-24",
-    "location": "Faisalabad",
+    "location": "Pakistan Expo Centres",
     "topic": "Trade",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "ELECTRICITY PAKISTAN / EVS WORLD 2026",
     "date": "2026-07-24",
-    "location": "",
+    "location": "Pakistan Expo Centres",
     "topic": "Energy",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "EVS / EP",
     "date": "2026-07-24",
-    "location": "",
-    "topic": "Energy",
+    "location": "Pakistan Expo Centres",
+    "topic": "Electric Vehicles",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "The News Education Expo",
     "date": "2026-07-18",
-    "location": "",
+    "location": "Pakistan Expo Centres",
     "topic": "Education",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "11th Color & Chem Expo 2026",
     "date": "2026-07-18",
-    "location": "",
+    "location": "Pakistan Expo Centres",
     "topic": "Chemicals",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "DIGITAL TEXTILE PRINTING INDUSTRY EXPO",
     "date": "2026-07-18",
-    "location": "",
+    "location": "Pakistan Expo Centres",
     "topic": "Textiles",
     "source": "Pakistan Expo Centres"
   },
   {
     "name": "Solar and Storage Pakistan",
     "date": "2026-07-10",
-    "location": "",
-    "topic": "Energy",
+    "location": "Pakistan Expo Centres",
+    "topic": "Renewable Energy",
     "source": "Pakistan Expo Centres"
   },
   {
@@ -115,41 +122,27 @@
     "name": "Imagining Futures Conference",
     "date": "2026-08-07",
     "location": "Karachi",
-    "topic": "Education & Training, IT & Technology",
+    "topic": "IT & Technology, Education & Training",
     "source": "10Times - Pakistan Technology"
   },
   {
     "name": "ITCN Asia",
     "date": "2026-09-22",
     "location": "Karachi",
-    "topic": "IT & Technology, 3D Printing, eCommerce",
+    "topic": "IT & Technology, eCommerce, 3D Printing",
     "source": "10Times - Pakistan Technology"
   },
   {
     "name": "Digital Signage & Printing Asia",
     "date": "2026-09-22",
     "location": "Karachi",
-    "topic": "IT & Technology, Sign Technology & Signages, Print & Printing, Packing & Packaging",
+    "topic": "IT & Technology, Print & Printing, Packing & Packaging",
     "source": "10Times - Pakistan Technology"
   },
   {
-    "name": "AI Summit Seoul & Expo",
-    "date": "2026-08-19",
-    "location": "Seoul, South Korea",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "DataHack Summit",
-    "date": "2026-08-05",
-    "location": "Bengaluru, India",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "LEAP Tech Conference",
-    "date": "2026-08-31",
-    "location": "Malham, Saudi Arabia",
+    "name": "Ai4",
+    "date": "2026-08-04",
+    "location": "Las Vegas, USA",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -161,9 +154,9 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Ai4",
-    "date": "2026-08-04",
-    "location": "Las Vegas, USA",
+    "name": "DataHack Summit",
+    "date": "2026-08-05",
+    "location": "Bengaluru, India",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -175,16 +168,30 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Customer Experience Management Africa Summit (CEM Africa Summit)",
-    "date": "2026-08-18",
-    "location": "Cape Town, South Africa",
+    "name": "Future of Memory and Storage (FMS)",
+    "date": "2026-08-04",
+    "location": "Santa Clara, USA",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Future of Memory and Storage (FMS)",
-    "date": "2026-08-04",
-    "location": "Santa Clara, USA",
+    "name": "International Internet of Things Exhibition (IOTE)",
+    "date": "2026-08-26",
+    "location": "Shenzhen, China",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "LEAP Tech Conference",
+    "date": "2026-08-31",
+    "location": "Malham, Saudi Arabia",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "Next Generation Dx Summit (Next Gen Dx)",
+    "date": "2026-08-24",
+    "location": "Washington DC, USA",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -196,23 +203,30 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "HR Tech Mena Summit",
-    "date": "2026-09-09",
-    "location": "Dubai, UAE",
+    "name": "ProductCon London",
+    "date": "2026-08-05",
+    "location": "London, UK",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
   {
-    "name": "InfoComm India",
-    "date": "2026-09-16",
-    "location": "Mumbai, India",
+    "name": "SiGMA Africa (SiGMA Cape Town)",
+    "date": "2026-08-04",
+    "location": "Cape Town, South Africa",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Next Generation Dx Summit (Next Gen Dx)",
-    "date": "2026-08-24",
-    "location": "Washington DC, USA",
+    "name": "The Water Expo",
+    "date": "2026-08-12",
+    "location": "Fort Lauderdale",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "WR Expo",
+    "date": "2026-08-12",
+    "location": "Fort Lauderdale",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -231,13 +245,6 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "SiGMA Africa (SiGMA Cape Town)",
-    "date": "2026-08-04",
-    "location": "Cape Town, South Africa",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
     "name": "Cable Net Convergence (CNC Expo)",
     "date": "2026-08-13",
     "location": "Hyderabad, India",
@@ -248,13 +255,6 @@
     "name": "Big Data & AI Paris",
     "date": "2026-09-15",
     "location": "Paris, France",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "ProductCon London",
-    "date": "2026-08-05",
-    "location": "London, UK",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -276,13 +276,6 @@
     "name": "International Conference on Circuit, Power and Computing Technologies (ICCPCT)",
     "date": "2026-08-06",
     "location": "Poruvazhy, India",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "The Water Expo",
-    "date": "2026-08-12",
-    "location": "Fort Lauderdale, USA",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -325,6 +318,55 @@
     "name": "PropTech Connect",
     "date": "2026-09-09",
     "location": "London, UK",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "Customer Experience Management Africa Summit (CEM Africa Summit)",
+    "date": "2026-08-18",
+    "location": "Cape Town, South Africa",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "HR Tech Mena Summit",
+    "date": "2026-09-09",
+    "location": "Dubai, UAE",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "InfoComm India",
+    "date": "2026-09-16",
+    "location": "Mumbai, India",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "AI Impact Summit",
+    "date": "2026-08-19",
+    "location": "New York",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "AI Summit Seoul & Expo",
+    "date": "2026-08-19",
+    "location": "Seoul, South Korea",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "Embedded World North America",
+    "date": "2026-09-22",
+    "location": "Anaheim",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "WPE & WHPE",
+    "date": "2026-08-24",
+    "location": "Xi'an",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -525,7 +567,7 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "International Mattress Sub-Industry and Technologies Fair (IBIA Expo)",
+    "name": "IBIA Expo",
     "date": "2026-09-16",
     "location": "Bakırköy, Turkey",
     "topic": "Industrial Engineering",
@@ -665,13 +707,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China Guangzhou International Shoes Fair (InterShoetec)",
-    "date": "2026-08-21",
-    "location": "Guangzhou, China",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Africa Down Under Conference",
     "date": "2026-09-02",
     "location": "Perth, Australia",
@@ -710,6 +745,13 @@
     "name": "Cambodia International Machinery Industrial Fair",
     "date": "2026-08-13",
     "location": "Phnom Penh, Cambodia",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "China Guangzhou International Shoes Fair (InterShoetec)",
+    "date": "2026-08-21",
+    "location": "Guangzhou, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }

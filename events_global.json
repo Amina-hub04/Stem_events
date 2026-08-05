@@ -14,7 +14,7 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "International Mattress Sub-Industry and Technologies Fair (IBIA Expo)",
+    "name": "IBIA Expo",
     "date": "2026-09-16",
     "location": "Bakırköy, Turkey",
     "topic": "Industrial Engineering",
@@ -154,13 +154,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China Guangzhou International Shoes Fair (InterShoetec)",
-    "date": "2026-08-21",
-    "location": "Guangzhou, China",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Africa Down Under Conference",
     "date": "2026-09-02",
     "location": "Perth, Australia",
@@ -199,6 +192,13 @@
     "name": "Cambodia International Machinery Industrial Fair",
     "date": "2026-08-13",
     "location": "Phnom Penh, Cambodia",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "China Guangzhou International Shoes Fair (InterShoetec)",
+    "date": "2026-08-21",
+    "location": "Guangzhou, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }
