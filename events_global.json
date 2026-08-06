@@ -14,13 +14,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "IBIA Expo",
-    "date": "2026-09-16",
-    "location": "Bakırköy, Turkey",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "India International Footwear Fair (IIFF)",
     "date": "2026-08-06",
     "location": "New Delhi, India",
@@ -28,16 +21,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Paper & Tissue Show (POS)",
-    "date": "2026-09-21",
-    "location": "Abu Dhabi, UAE",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Diggers & Dealers Mining Forum",
-    "date": "2026-08-03",
-    "location": "Kalgoorlie, Australia",
+    "name": "International Mattress Sub-Industry and Technologies Fair (IBIA Expo)",
+    "date": "2026-09-16",
+    "location": "Bakırköy, Turkey",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -45,6 +31,13 @@
     "name": "Paper Middle East (PAPER ME)",
     "date": "2026-09-15",
     "location": "Cairo, Egypt",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Paper & Tissue Show (POS)",
+    "date": "2026-09-21",
+    "location": "Abu Dhabi, UAE",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -77,13 +70,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Electra Mining Africa",
-    "date": "2026-09-07",
-    "location": "Johannesburg, South Africa",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Pune Machine Tool Expo (PMTX)",
     "date": "2026-09-07",
     "location": "Pimpri-Chinchwad, India",
@@ -91,9 +77,30 @@
     "source": "10Times - Global Engineering"
   },
   {
+    "name": "Electra Mining Africa",
+    "date": "2026-09-07",
+    "location": "Johannesburg, South Africa",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
     "name": "Plastics Recycling Show India (PRS India)",
     "date": "2026-08-31",
     "location": "Mumbai, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "China Guangzhou International Shoes Fair (InterShoetec)",
+    "date": "2026-08-21",
+    "location": "Guangzhou, China",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "China Composites Expo (CCE)",
+    "date": "2026-09-01",
+    "location": "Shanghai, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -119,16 +126,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China Composites Expo (CCE)",
-    "date": "2026-09-01",
-    "location": "Shanghai, China",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "International Pipeline Conference and Expo",
-    "date": "2026-09-21",
-    "location": "Calgary, Canada",
+    "name": "Shenzhen International Industrial Automation and Robot Exhibition (ARE Shenzhen)",
+    "date": "2026-08-26",
+    "location": "Shenzhen, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -140,9 +140,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Shenzhen International Industrial Automation and Robot Exhibition (ARE Shenzhen)",
-    "date": "2026-08-26",
-    "location": "Shenzhen, China",
+    "name": "International Pipeline Conference and Expo",
+    "date": "2026-09-21",
+    "location": "Calgary, Canada",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -150,6 +150,20 @@
     "name": "China Adhesives and Sealants Expo (ASE China)",
     "date": "2026-09-15",
     "location": "Shanghai, China",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "MAKTEK Eurasia",
+    "date": "2026-09-28",
+    "location": "Istanbul, Turkey",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "MEC Show",
+    "date": "2026-08-04",
+    "location": "Serra, Brazil",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -175,13 +189,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Tanzania International Manufacturers Expo (TIMEXPO)",
-    "date": "2026-09-24",
-    "location": "Dar es Salaam, Tanzania",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Industrial Armenia Expo",
     "date": "2026-09-04",
     "location": "Yerevan, Armenia",
@@ -189,16 +196,16 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Cambodia International Machinery Industrial Fair",
-    "date": "2026-08-13",
-    "location": "Phnom Penh, Cambodia",
+    "name": "Automation Taipei",
+    "date": "2026-08-19",
+    "location": "Taipei, Taiwan",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China Guangzhou International Shoes Fair (InterShoetec)",
-    "date": "2026-08-21",
-    "location": "Guangzhou, China",
+    "name": "Cambodia International Machinery Industrial Fair",
+    "date": "2026-08-13",
+    "location": "Phnom Penh, Cambodia",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }
