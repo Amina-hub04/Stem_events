@@ -14,6 +14,34 @@
     "source": "10Times - Global Engineering"
   },
   {
+    "name": "WPE & WHPE",
+    "date": "2026-08-24",
+    "location": "Xi'an",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Bakery ASEAN",
+    "date": "2026-08-27",
+    "location": "Jakarta",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Texworld Apparel Sourcing Paris",
+    "date": "2026-08-31",
+    "location": "Paris",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "FISHEX",
+    "date": "2026-09-10",
+    "location": "Guangzhou",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
     "name": "India International Footwear Fair (IIFF)",
     "date": "2026-08-06",
     "location": "New Delhi, India",
@@ -206,34 +234,6 @@
     "name": "Cambodia International Machinery Industrial Fair",
     "date": "2026-08-13",
     "location": "Phnom Penh, Cambodia",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "WPE & WHPE",
-    "date": "2026-08-24",
-    "location": "Xi'an, China",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Bakery ASEAN",
-    "date": "2026-08-27",
-    "location": "Jakarta, Indonesia",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Texworld Apparel Sourcing Paris",
-    "date": "2026-08-31",
-    "location": "Paris, France",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "FISHEX",
-    "date": "2026-09-10",
-    "location": "Guangzhou, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }

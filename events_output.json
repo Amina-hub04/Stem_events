@@ -14,6 +14,83 @@
     "source": "AllEvents - Lahore Technology"
   },
   {
+    "name": "BUILD ASIA 2026",
+    "date": "2026-08-06",
+    "location": "",
+    "topic": "Construction",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "Pakistan Interiors Furniture Expo",
+    "date": "2026-08-07",
+    "location": "",
+    "topic": "Furniture",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "Launch Event",
+    "date": "2026-08-11",
+    "location": "",
+    "topic": "Technology",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "PR Event",
+    "date": "2026-08-02",
+    "location": "",
+    "topic": "Public Relations",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "EXPO FAISALABAD 2026",
+    "date": "2026-07-24",
+    "location": "Faisalabad",
+    "topic": "Trade",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "ELECTRICITY PAKISTAN / EVS WORLD 2026",
+    "date": "2026-07-24",
+    "location": "",
+    "topic": "Energy",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "EVS / EP",
+    "date": "2026-07-24",
+    "location": "",
+    "topic": "Energy",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "The News Education Expo",
+    "date": "2026-07-18",
+    "location": "",
+    "topic": "Education",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "11th Color & Chem Expo 2026",
+    "date": "2026-07-18",
+    "location": "",
+    "topic": "Chemicals",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "DIGITAL TEXTILE PRINTING INDUSTRY EXPO",
+    "date": "2026-07-18",
+    "location": "",
+    "topic": "Textiles",
+    "source": "Pakistan Expo Centres"
+  },
+  {
+    "name": "Solar and Storage Pakistan",
+    "date": "2026-07-10",
+    "location": "",
+    "topic": "Energy",
+    "source": "Pakistan Expo Centres"
+  },
+  {
     "name": "Predaxis Summit",
     "date": "2026-08-07",
     "location": "Karachi",
@@ -38,13 +115,13 @@
     "name": "Digital Signage & Printing Asia",
     "date": "2026-09-22",
     "location": "Karachi",
-    "topic": "IT & Technology, Print & Printing, Sign Technology & Signages",
+    "topic": "IT & Technology, Print & Printing, Packing & Packaging",
     "source": "10Times - Pakistan Technology"
   },
   {
-    "name": "AI Summit Seoul & Expo",
-    "date": "2026-08-19",
-    "location": "Seoul, South Korea",
+    "name": "Ai4",
+    "date": "2026-08-04",
+    "location": "Las Vegas, USA",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -56,8 +133,8 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Ai4",
-    "date": "2026-08-04",
+    "name": "Black Hat USA",
+    "date": "2026-08-01",
     "location": "Las Vegas, USA",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
@@ -66,6 +143,13 @@
     "name": "DEFCON",
     "date": "2026-08-06",
     "location": "Las Vegas, USA",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "International Internet of Things Exhibition (IOTE)",
+    "date": "2026-08-26",
+    "location": "Shenzhen, China",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -98,16 +182,16 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Black Hat USA",
-    "date": "2026-08-01",
-    "location": "Las Vegas, USA",
+    "name": "HR Tech Mena Summit",
+    "date": "2026-09-09",
+    "location": "Dubai, UAE",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
   {
-    "name": "International Internet of Things Exhibition (IOTE)",
-    "date": "2026-08-26",
-    "location": "Shenzhen, China",
+    "name": "InfoComm India",
+    "date": "2026-09-16",
+    "location": "Mumbai, India",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -182,13 +266,6 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "The Water Expo",
-    "date": "2026-08-12",
-    "location": "Fort Lauderdale",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
     "name": "Retail Asia Conference & Expo (RACE)",
     "date": "2026-09-01",
     "location": "Hong Kong",
@@ -224,23 +301,16 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "TechBBQ",
-    "date": "2026-08-26",
-    "location": "",
+    "name": "AI Impact Summit",
+    "date": "2026-08-19",
+    "location": "New York",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
   {
-    "name": "HR Tech Mena Summit",
-    "date": "2026-09-09",
-    "location": "Dubai, UAE",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "InfoComm India",
-    "date": "2026-09-16",
-    "location": "Mumbai, India",
+    "name": "AI Summit Seoul & Expo",
+    "date": "2026-08-19",
+    "location": "Seoul, South Korea",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -248,6 +318,83 @@
     "name": "Embedded World North America",
     "date": "2026-09-22",
     "location": "Anaheim",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "WPE & WHPE",
+    "date": "2026-08-24",
+    "location": "Xi'an",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "The Water Expo",
+    "date": "2026-08-12",
+    "location": "Fort Lauderdale",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "WR Expo",
+    "date": "2026-08-12",
+    "location": "Fort Lauderdale",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "AMSC",
+    "date": "2026-08-13",
+    "location": "Kuala Lumpur",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "H.E.A.T. International Congress",
+    "date": "2026-08-20",
+    "location": "Bangkok",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "KoINDEX",
+    "date": "2026-08-27",
+    "location": "New Delhi",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "Foodist",
+    "date": "2026-09-01",
+    "location": "Istanbul",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "VIFA ASEAN",
+    "date": "2026-09-02",
+    "location": "Ho Chi Minh",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "Annual Secretary's Day Conference",
+    "date": "2026-09-02",
+    "location": "Cape Town",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "IAW Cologne",
+    "date": "2026-09-08",
+    "location": "Cologne",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "TechBBQ",
+    "date": "2026-08-26",
+    "location": "Unknown",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -420,10 +567,80 @@
     "source": "10Times - Global Science & Research"
   },
   {
+    "name": "The Water Expo",
+    "date": "2026-08-12",
+    "location": "Fort Lauderdale, USA",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "WR Expo",
+    "date": "2026-08-12",
+    "location": "Fort Lauderdale, USA",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "AMSC",
+    "date": "2026-08-13",
+    "location": "Kuala Lumpur, Malaysia",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "H.E.A.T. International Congress",
+    "date": "2026-08-20",
+    "location": "Bangkok, Thailand",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "KoINDEX",
+    "date": "2026-08-27",
+    "location": "New Delhi, India",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "Foodist",
+    "date": "2026-09-01",
+    "location": "Istanbul, Turkey",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "VIFA ASEAN",
+    "date": "2026-09-02",
+    "location": "Ho Chi Minh, Vietnam",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "Annual Secretary's Day Conference",
+    "date": "2026-09-02",
+    "location": "Cape Town, South Africa",
+    "topic": "Business Services",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "IAW Cologne",
+    "date": "2026-09-08",
+    "location": "Cologne, Germany",
+    "topic": "Business Services",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "World Wound Healing Congress",
+    "date": "2026-09-23",
+    "location": "Kuala Lumpur, Malaysia",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
     "name": "BioTech Week Boston",
     "date": "2026-09-22",
     "location": "Boston, USA",
-    "topic": "Science & Research",
+    "topic": "Biotechnology",
     "source": "10Times - Global Science & Research"
   },
   {
@@ -437,6 +654,34 @@
     "name": "China International Furniture Machinery & Woodworking Machinery Fair (Shanghai) (WMF)",
     "date": "2026-09-05",
     "location": "Shanghai, China",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "WPE & WHPE",
+    "date": "2026-08-24",
+    "location": "Xi'an",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Bakery ASEAN",
+    "date": "2026-08-27",
+    "location": "Jakarta",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Texworld Apparel Sourcing Paris",
+    "date": "2026-08-31",
+    "location": "Paris",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "FISHEX",
+    "date": "2026-09-10",
+    "location": "Guangzhou",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -633,34 +878,6 @@
     "name": "Cambodia International Machinery Industrial Fair",
     "date": "2026-08-13",
     "location": "Phnom Penh, Cambodia",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "WPE & WHPE",
-    "date": "2026-08-24",
-    "location": "Xi'an, China",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Bakery ASEAN",
-    "date": "2026-08-27",
-    "location": "Jakarta, Indonesia",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Texworld Apparel Sourcing Paris",
-    "date": "2026-08-31",
-    "location": "Paris, France",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "FISHEX",
-    "date": "2026-09-10",
-    "location": "Guangzhou, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }
