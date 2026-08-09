@@ -14,41 +14,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "WPE & WHPE",
-    "date": "2026-08-24",
-    "location": "Xi'an",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Bakery ASEAN",
-    "date": "2026-08-27",
-    "location": "Jakarta",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Texworld Apparel Sourcing Paris",
-    "date": "2026-08-31",
-    "location": "Paris",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "FISHEX",
-    "date": "2026-09-10",
-    "location": "Guangzhou",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "India International Footwear Fair (IIFF)",
-    "date": "2026-08-06",
-    "location": "New Delhi, India",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "International Mattress Sub-Industry and Technologies Fair (IBIA Expo)",
     "date": "2026-09-16",
     "location": "Bakırköy, Turkey",
@@ -119,9 +84,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China Guangzhou International Shoes Fair (InterShoetec)",
-    "date": "2026-08-21",
-    "location": "Guangzhou, China",
+    "name": "Mumbai Wood (MW)",
+    "date": "2026-09-18",
+    "location": "Mumbai, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -133,16 +98,16 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Mumbai Wood (MW)",
-    "date": "2026-09-18",
-    "location": "Mumbai, India",
+    "name": "China Guangzhou International Shoes Fair (InterShoetec)",
+    "date": "2026-08-21",
+    "location": "Guangzhou, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Mining Expo & Conference",
-    "date": "2026-08-04",
-    "location": "Windhoek, Namibia",
+    "name": "Shenzhen International Industrial Automation and Robot Exhibition (ARE Shenzhen)",
+    "date": "2026-08-26",
+    "location": "Shenzhen, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -154,9 +119,16 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Shenzhen International Industrial Automation and Robot Exhibition (ARE Shenzhen)",
-    "date": "2026-08-26",
-    "location": "Shenzhen, China",
+    "name": "MAKTEK Eurasia",
+    "date": "2026-09-28",
+    "location": "Istanbul, Turkey",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "China Adhesives and Sealants Expo (ASE China)",
+    "date": "2026-09-15",
+    "location": "Shanghai, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -175,23 +147,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China Adhesives and Sealants Expo (ASE China)",
-    "date": "2026-09-15",
-    "location": "Shanghai, China",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "MAKTEK Eurasia",
-    "date": "2026-09-28",
-    "location": "Istanbul, Turkey",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "MEC Show",
-    "date": "2026-08-04",
-    "location": "Serra, Brazil",
+    "name": "Metal Expo Istanbul",
+    "date": "2026-09-16",
+    "location": "Bakırköy, Turkey",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -203,23 +161,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Metal Expo Istanbul",
-    "date": "2026-09-16",
-    "location": "Bakırköy, Turkey",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Mallee Machinery Field Days",
-    "date": "2026-08-05",
-    "location": "Sea Lake, Australia",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Industrial Armenia Expo",
-    "date": "2026-09-04",
-    "location": "Yerevan, Armenia",
+    "name": "Globe-Tech Engineering Expo - Pune (Engg Expo)",
+    "date": "2026-10-02",
+    "location": "Pimpri-Chinchwad, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -231,9 +175,65 @@
     "source": "10Times - Global Engineering"
   },
   {
+    "name": "Industrial Armenia Expo",
+    "date": "2026-09-04",
+    "location": "Yerevan, Armenia",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Dye+Chem Bangladesh Expo (DyeChem BD)",
+    "date": "2026-09-02",
+    "location": "Purbacahal, Bangladesh",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Tanzania International Manufacturers Expo (TIMEXPO)",
+    "date": "2026-09-24",
+    "location": "Dar es Salaam, Tanzania",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Garment Technology Expo (GTE)",
+    "date": "2026-09-18",
+    "location": "Bengaluru, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
     "name": "Cambodia International Machinery Industrial Fair",
     "date": "2026-08-13",
     "location": "Phnom Penh, Cambodia",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "WPE & WHPE",
+    "date": "2026-08-24",
+    "location": "Xi'an, China",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Bakery ASEAN",
+    "date": "2026-08-27",
+    "location": "Jakarta, Indonesia",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Texworld Apparel Sourcing Paris",
+    "date": "2026-08-31",
+    "location": "Paris, France",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "FISHEX",
+    "date": "2026-09-10",
+    "location": "Guangzhou, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }
