@@ -35,16 +35,16 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China International Paper Technology Exhibition and Conference (CIPTE)",
-    "date": "2026-09-14",
-    "location": "Wuhan, China",
+    "name": "DairyTech India",
+    "date": "2026-08-21",
+    "location": "Bengaluru, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "DairyTech India",
-    "date": "2026-08-21",
-    "location": "Bengaluru, India",
+    "name": "China International Paper Technology Exhibition and Conference (CIPTE)",
+    "date": "2026-09-14",
+    "location": "Wuhan, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -63,13 +63,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Pune Machine Tool Expo (PMTX)",
-    "date": "2026-09-07",
-    "location": "Pimpri-Chinchwad, India",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Electra Mining Africa",
     "date": "2026-09-07",
     "location": "Johannesburg, South Africa",
@@ -80,6 +73,13 @@
     "name": "Plastics Recycling Show India (PRS India)",
     "date": "2026-08-31",
     "location": "Mumbai, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Pune Machine Tool Expo (PMTX)",
+    "date": "2026-09-07",
+    "location": "Pimpri-Chinchwad, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -98,23 +98,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China Guangzhou International Shoes Fair (InterShoetec)",
-    "date": "2026-08-21",
-    "location": "Guangzhou, China",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Shenzhen International Industrial Automation and Robot Exhibition (ARE Shenzhen)",
     "date": "2026-08-26",
     "location": "Shenzhen, China",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "International Refinery & Petrochemical Technology Conference & Exhibition (RPTF)",
-    "date": "2026-08-18",
-    "location": "New Delhi, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -147,16 +133,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Metal Expo Istanbul",
-    "date": "2026-09-16",
-    "location": "Bakırköy, Turkey",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Africa Down Under Conference",
-    "date": "2026-09-02",
-    "location": "Perth, Australia",
+    "name": "ALUMINIUM",
+    "date": "2026-10-06",
+    "location": "Düsseldorf, Germany",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -164,6 +143,13 @@
     "name": "Globe-Tech Engineering Expo - Pune (Engg Expo)",
     "date": "2026-10-02",
     "location": "Pimpri-Chinchwad, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "Metal Expo Istanbul",
+    "date": "2026-09-16",
+    "location": "Bakırköy, Turkey",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -182,9 +168,23 @@
     "source": "10Times - Global Engineering"
   },
   {
+    "name": "Africa Down Under Conference",
+    "date": "2026-09-02",
+    "location": "Perth, Australia",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
     "name": "Dye+Chem Bangladesh Expo (DyeChem BD)",
     "date": "2026-09-02",
     "location": "Purbacahal, Bangladesh",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "FBC ASEAN",
+    "date": "2026-09-16",
+    "location": "Đông Hội, Vietnam",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -196,16 +196,16 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Garment Technology Expo (GTE)",
-    "date": "2026-09-18",
-    "location": "Bengaluru, India",
+    "name": "Cambodia International Machinery Industrial Fair",
+    "date": "2026-08-13",
+    "location": "Phnom Penh, Cambodia",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Cambodia International Machinery Industrial Fair",
-    "date": "2026-08-13",
-    "location": "Phnom Penh, Cambodia",
+    "name": "Garment Technology Expo (GTE)",
+    "date": "2026-09-18",
+    "location": "Bengaluru, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }
