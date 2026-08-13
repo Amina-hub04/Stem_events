@@ -42,16 +42,16 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China International Paper Technology Exhibition and Conference (CIPTE)",
-    "date": "2026-09-14",
-    "location": "Wuhan, China",
+    "name": "IndExpo Hyderabad",
+    "date": "2026-09-04",
+    "location": "Hyderabad, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "IndExpo Hyderabad",
-    "date": "2026-09-04",
-    "location": "Hyderabad, India",
+    "name": "China International Paper Technology Exhibition and Conference (CIPTE)",
+    "date": "2026-09-14",
+    "location": "Wuhan, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -161,13 +161,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Industrial Armenia Expo",
-    "date": "2026-09-04",
-    "location": "Yerevan, Armenia",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Africa Down Under Conference",
     "date": "2026-09-02",
     "location": "Perth, Australia",
@@ -206,6 +199,13 @@
     "name": "Garment Technology Expo (GTE)",
     "date": "2026-09-18",
     "location": "Bengaluru, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "International Exhibition for Metal Working (AMB Stuttgart)",
+    "date": "2026-09-15",
+    "location": "Stuttgart, Germany",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }

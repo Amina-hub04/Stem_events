@@ -9,72 +9,9 @@
   {
     "name": "8th FutureHR Network Meetup - 15 August 2026",
     "date": "2026-08-15",
-    "location": "CrecenTech Systems",
+    "location": "CrecenTech Systems, Lahore",
     "topic": "Technology",
     "source": "AllEvents - Lahore Technology"
-  },
-  {
-    "name": "EVS / EP",
-    "date": "2026-07-24",
-    "location": "Pakistan Expo Centres",
-    "topic": "Electrical and Electronic Engineering",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "ELECTRICITY PAKISTAN / EVS WORLD 2026",
-    "date": "2026-07-24",
-    "location": "Pakistan Expo Centres",
-    "topic": "Electrical Engineering",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "EXPO FAISALABAD 2026",
-    "date": "2026-07-24",
-    "location": "Pakistan Expo Centres",
-    "topic": "General Engineering and Technology",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "BUILD ASIA 2026",
-    "date": "2026-08-06",
-    "location": "Pakistan Expo Centres",
-    "topic": "Civil Engineering and Construction",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "Pakistan Interiors Furniture Expo",
-    "date": "2026-08-07",
-    "location": "Pakistan Expo Centres",
-    "topic": "Interior Design and Furniture",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "Launch Event",
-    "date": "2026-08-11",
-    "location": "Pakistan Expo Centres",
-    "topic": "General Technology",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "MERA BRAND PAKISTAN",
-    "date": "2026-08-14",
-    "location": "Pakistan Expo Centres",
-    "topic": "Marketing and Branding",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "IMA 2026",
-    "date": "2026-08-15",
-    "location": "Pakistan Expo Centres",
-    "topic": "Management and Business",
-    "source": "Pakistan Expo Centres"
-  },
-  {
-    "name": "DPS PAKISTAN 2026",
-    "date": "2026-08-21",
-    "location": "Pakistan Expo Centres",
-    "topic": "Digital Printing",
-    "source": "Pakistan Expo Centres"
   },
   {
     "name": "ITCN Asia",
@@ -109,6 +46,20 @@
     "date": "2026-08-31",
     "location": "Riyadh, Saudi Arabia",
     "topic": "IT & Technology, Business Services",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "Embedded World North America",
+    "date": "2026-09-22",
+    "location": "Anaheim",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "WPE & WHPE",
+    "date": "2026-08-24",
+    "location": "Xi'an",
+    "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
   {
@@ -217,6 +168,13 @@
     "source": "10Times - Global Technology"
   },
   {
+    "name": "Red Hat Summit",
+    "date": "2026-09-03",
+    "location": "Mumbai, India",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
     "name": "Cedia Expo",
     "date": "2026-09-01",
     "location": "Denver, USA",
@@ -248,7 +206,7 @@
     "name": "Gulf Information Security Expo & Conference (GISEC)",
     "date": "2026-09-16",
     "location": "Dubai, UAE",
-    "topic": "Security & Defense, IT & Technology",
+    "topic": "IT & Technology, Security & Defense",
     "source": "10Times - Global Technology"
   },
   {
@@ -280,66 +238,59 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Gartner Data & Analytics Summit",
-    "date": "2026-09-21",
-    "location": "Mumbai, India",
-    "topic": "Analytics & Statistics, IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "Hospitality Tech360",
-    "date": "2026-09-29",
-    "location": "London, UK",
+    "name": "Techsauce Global Summit",
+    "date": "2026-08-27",
+    "location": "Bangkok, Thailand",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
   {
-    "name": "International Conference on Natural Science and Environment (ICNSE)",
-    "date": "2026-08-15",
-    "location": "New Delhi, India",
-    "topic": "Science & Research, Environment & Waste",
+    "name": "AI Summit Seoul & Expo",
+    "date": "2026-08-19",
+    "location": "Seoul, South Korea",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "The Bioprocessing Summit",
+    "date": "2026-08-10",
+    "location": "Boston, USA & Online",
+    "topic": "Biotechnology",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "Silicon Valley International Invention Festival (SVIIF)",
     "date": "2026-08-14",
     "location": "Santa Clara, USA & Online",
-    "topic": "Science & Research, IT & Technology",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "International Conference on Natural Science and Environment (ICNSE)",
+    "date": "2026-08-15",
+    "location": "New Delhi, India",
+    "topic": "Environment & Waste",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "Edinburgh International Trauma Symposium",
     "date": "2026-08-18",
     "location": "Edinburgh, UK",
-    "topic": "Medical & Pharma, Science & Research, Traumatology",
-    "source": "10Times - Global Science & Research"
-  },
-  {
-    "name": "International Conference on Science Technology and Management (ICSTM)",
-    "date": "2026-08-13",
-    "location": "Riyadh, Saudi Arabia",
-    "topic": "Science & Research",
+    "topic": "Traumatology",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "SPIE Optics + Photonics",
     "date": "2026-08-23",
     "location": "San Diego, USA",
-    "topic": "Electric & Electronics, Science & Research",
+    "topic": "Electric & Electronics",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "International Conference on Wildlife Ecology, Rehabilitation and Conservation (ICWERC)",
     "date": "2026-08-26",
     "location": "Paris, France & Online",
-    "topic": "Science & Research, Animals & Pets",
-    "source": "10Times - Global Science & Research"
-  },
-  {
-    "name": "International Conference on Agricultural and Biological Science (ICABS)",
-    "date": "2026-09-06",
-    "location": "Melbourne, Australia",
-    "topic": "Agriculture & Forestry, Science & Research",
+    "topic": "Animals & Pets",
     "source": "10Times - Global Science & Research"
   },
   {
@@ -350,52 +301,59 @@
     "source": "10Times - Global Science & Research"
   },
   {
+    "name": "International Conference on Agricultural and Biological Science (ICABS)",
+    "date": "2026-09-06",
+    "location": "Melbourne, Australia",
+    "topic": "Agriculture & Forestry",
+    "source": "10Times - Global Science & Research"
+  },
+  {
     "name": "Thailand LAB INTERNATIONAL",
     "date": "2026-09-02",
     "location": "Bangkok, Thailand",
-    "topic": "Medical & Pharma, Science & Research",
+    "topic": "Medical & Pharma",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "Commercial UAV Expo",
     "date": "2026-09-01",
     "location": "Las Vegas, USA",
-    "topic": "Science & Research, Logistics & Transportation",
+    "topic": "Logistics & Transportation",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "China (Kunming) Agriculture Production Materials Exhibition (AST)",
     "date": "2026-08-20",
     "location": "Kunming, China",
-    "topic": "Agriculture & Forestry, Science & Research",
+    "topic": "Agriculture & Forestry",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "Bengaluru Space Expo (BSX)",
     "date": "2026-09-07",
     "location": "Bengaluru, India",
-    "topic": "Scientific Instruments, Railway & Roadways, Science & Research",
+    "topic": "Scientific Instruments",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "Africa International Conference on Clean Energy and Energy Storage (AICCEES)",
     "date": "2026-09-24",
     "location": "Port Harcourt, Nigeria",
-    "topic": "Science & Research, Power & Energy",
+    "topic": "Power & Energy",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "World Space Business Week",
     "date": "2026-09-14",
     "location": "Paris, France",
-    "topic": "Science & Research, Business Services",
+    "topic": "Business Services",
     "source": "10Times - Global Science & Research"
   },
   {
     "name": "International Materials Research Congress (IMRC)",
     "date": "2026-08-16",
     "location": "Cancún, Mexico",
-    "topic": "Industrial Engineering, Science & Research",
+    "topic": "Industrial Engineering",
     "source": "10Times - Global Science & Research"
   },
   {
@@ -409,7 +367,7 @@
     "name": "LASER World of PHOTONICS INDIA",
     "date": "2026-09-16",
     "location": "Bengaluru, India",
-    "topic": "Electric & Electronics, Science & Research, Optics, Laser & Photonics",
+    "topic": "Electric & Electronics",
     "source": "10Times - Global Science & Research"
   },
   {
@@ -423,28 +381,14 @@
     "name": "Southwest Dental Conference (SWDC)",
     "date": "2026-08-21",
     "location": "Dallas, USA",
-    "topic": "Medical & Pharma, Science & Research, Dentistry",
+    "topic": "Dentistry",
     "source": "10Times - Global Science & Research"
   },
   {
-    "name": "AI Summit Seoul & Expo",
-    "date": "2026-08-19",
-    "location": "Seoul, South Korea",
-    "topic": "Science & Research, IT & Technology, Business transformation",
-    "source": "10Times - Global Science & Research"
-  },
-  {
-    "name": "The Bioprocessing Summit",
-    "date": "2026-08-10",
-    "location": "Boston, USA & Online",
-    "topic": "Medical & Pharma, Science & Research, Biotechnology, Cell therapy, Vaccination",
-    "source": "10Times - Global Science & Research"
-  },
-  {
-    "name": "Gujarat Medical Expo (GME)",
-    "date": "2026-09-25",
-    "location": "Ahmedabad, India",
-    "topic": "Medical & Pharma, Science & Research",
+    "name": "World Wound Healing Congress",
+    "date": "2026-09-23",
+    "location": "Kuala Lumpur, Malaysia",
+    "topic": "Business Services",
     "source": "10Times - Global Science & Research"
   },
   {
@@ -458,7 +402,14 @@
     "name": "International Conference on Structural Integrity and Durability (ICSID)",
     "date": "2026-08-11",
     "location": "Dubrovnik, Croatia & Online",
-    "topic": "Industrial Engineering, Science & Research",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "Vizient Connections Summit",
+    "date": "2026-09-21",
+    "location": "Las Vegas, USA",
+    "topic": "Computer & Gadgets",
     "source": "10Times - Global Science & Research"
   },
   {
@@ -504,16 +455,16 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "China International Paper Technology Exhibition and Conference (CIPTE)",
-    "date": "2026-09-14",
-    "location": "Wuhan, China",
+    "name": "IndExpo Hyderabad",
+    "date": "2026-09-04",
+    "location": "Hyderabad, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "IndExpo Hyderabad",
-    "date": "2026-09-04",
-    "location": "Hyderabad, India",
+    "name": "China International Paper Technology Exhibition and Conference (CIPTE)",
+    "date": "2026-09-14",
+    "location": "Wuhan, China",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -623,13 +574,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Industrial Armenia Expo",
-    "date": "2026-09-04",
-    "location": "Yerevan, Armenia",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Africa Down Under Conference",
     "date": "2026-09-02",
     "location": "Perth, Australia",
@@ -668,6 +612,13 @@
     "name": "Garment Technology Expo (GTE)",
     "date": "2026-09-18",
     "location": "Bengaluru, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "International Exhibition for Metal Working (AMB Stuttgart)",
+    "date": "2026-09-15",
+    "location": "Stuttgart, Germany",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }
