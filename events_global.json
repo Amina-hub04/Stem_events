@@ -21,13 +21,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Paper Middle East (PAPER ME)",
-    "date": "2026-09-15",
-    "location": "Cairo, Egypt",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Paper & Tissue Show (POS)",
     "date": "2026-09-21",
     "location": "Abu Dhabi, UAE",
@@ -35,9 +28,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "DairyTech India",
-    "date": "2026-08-21",
-    "location": "Bengaluru, India",
+    "name": "Paper Middle East (PAPER ME)",
+    "date": "2026-09-15",
+    "location": "Cairo, Egypt",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -45,6 +38,13 @@
     "name": "IndExpo Hyderabad",
     "date": "2026-09-04",
     "location": "Hyderabad, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "DairyTech India",
+    "date": "2026-08-21",
+    "location": "Bengaluru, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },

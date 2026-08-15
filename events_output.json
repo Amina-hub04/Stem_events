@@ -9,7 +9,7 @@
   {
     "name": "8th FutureHR Network Meetup - 15 August 2026",
     "date": "2026-08-15",
-    "location": "CrecenTech Systems, Lahore",
+    "location": "CrecenTech Systems",
     "topic": "Technology",
     "source": "AllEvents - Lahore Technology"
   },
@@ -59,7 +59,7 @@
     "name": "International Internet of Things Exhibition (IOTE)",
     "date": "2026-08-26",
     "location": "Shenzhen, China",
-    "topic": "IT & Technology",
+    "topic": "Telecommunication",
     "source": "10Times - Global Technology"
   },
   {
@@ -105,9 +105,9 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "Indonesia Digital Technology Expo (IDTEX)",
-    "date": "2026-08-11",
-    "location": "Jakarta, Indonesia",
+    "name": "Big Data & AI Paris",
+    "date": "2026-09-15",
+    "location": "Paris, France",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -115,13 +115,6 @@
     "name": "Epic's annual conference (XGM)",
     "date": "2026-08-17",
     "location": "Verona, USA",
-    "topic": "IT & Technology",
-    "source": "10Times - Global Technology"
-  },
-  {
-    "name": "Big Data & AI Paris",
-    "date": "2026-09-15",
-    "location": "Paris, France",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -136,13 +129,20 @@
     "name": "International Conference on Electronics and Sustainable Communication Systems (ICESCS)",
     "date": "2026-08-26",
     "location": "Malumichampatti, India",
-    "topic": "IT & Technology",
+    "topic": "Electric & Electronics",
     "source": "10Times - Global Technology"
   },
   {
     "name": "Hong Kong Computer & Communications Festival",
     "date": "2026-08-22",
     "location": "Hong Kong",
+    "topic": "IT & Technology",
+    "source": "10Times - Global Technology"
+  },
+  {
+    "name": "International Conference on Emerging Techniques in Computational Intelligence (ETCI)",
+    "date": "2026-08-19",
+    "location": "Hyderabad, India",
     "topic": "IT & Technology",
     "source": "10Times - Global Technology"
   },
@@ -157,7 +157,7 @@
     "name": "Retail Asia Conference & Expo (RACE)",
     "date": "2026-09-01",
     "location": "Hong Kong",
-    "topic": "IT & Technology",
+    "topic": "Digital Marketing",
     "source": "10Times - Global Technology"
   },
   {
@@ -175,17 +175,17 @@
     "source": "10Times - Global Technology"
   },
   {
-    "name": "PropTech Connect",
-    "date": "2026-09-09",
-    "location": "London, UK",
-    "topic": "IT & Technology",
+    "name": "Gartner Data & Analytics Summit",
+    "date": "2026-09-21",
+    "location": "Mumbai, India",
+    "topic": "Analytics & Statistics",
     "source": "10Times - Global Technology"
   },
   {
-    "name": "International Conference on Emerging Techniques in Computational Intelligence (ETCI)",
-    "date": "2026-08-19",
-    "location": "Hyderabad, India",
-    "topic": "IT & Technology",
+    "name": "PropTech Connect",
+    "date": "2026-09-09",
+    "location": "London, UK",
+    "topic": "Venture Capital",
     "source": "10Times - Global Technology"
   },
   {
@@ -206,7 +206,7 @@
     "name": "Crypto Expo Dubai (CED)",
     "date": "2026-09-09",
     "location": "Dubai, UAE",
-    "topic": "IT & Technology",
+    "topic": "Banking & Finance",
     "source": "10Times - Global Technology"
   },
   {
@@ -245,17 +245,10 @@
     "source": "10Times - Global Science & Research"
   },
   {
-    "name": "The Bioprocessing Summit",
-    "date": "2026-08-10",
-    "location": "Boston, USA & Online",
-    "topic": "Biotechnology",
-    "source": "10Times - Global Science & Research"
-  },
-  {
     "name": "Silicon Valley International Invention Festival (SVIIF)",
     "date": "2026-08-14",
     "location": "Santa Clara, USA & Online",
-    "topic": "Science & Research",
+    "topic": "IT & Technology",
     "source": "10Times - Global Science & Research"
   },
   {
@@ -371,6 +364,13 @@
     "source": "10Times - Global Science & Research"
   },
   {
+    "name": "Society for Social Studies of Science Meeting",
+    "date": "2026-10-07",
+    "location": "Toronto, Canada",
+    "topic": "Education & Training",
+    "source": "10Times - Global Science & Research"
+  },
+  {
     "name": "Southwest Dental Conference (SWDC)",
     "date": "2026-08-21",
     "location": "Dallas, USA",
@@ -392,17 +392,31 @@
     "source": "10Times - Global Science & Research"
   },
   {
-    "name": "International Conference on Structural Integrity and Durability (ICSID)",
-    "date": "2026-08-11",
-    "location": "Dubrovnik, Croatia & Online",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Science & Research"
-  },
-  {
     "name": "Vizient Connections Summit",
     "date": "2026-09-21",
     "location": "Las Vegas, USA",
     "topic": "Computer & Gadgets",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "International Optical Fair Tokyo (iOFT)",
+    "date": "2026-10-07",
+    "location": "Koto, Japan",
+    "topic": "Electric & Electronics",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "International Whey Conference (IWC)",
+    "date": "2026-09-21",
+    "location": "Chicago, USA",
+    "topic": "Science & Research",
+    "source": "10Times - Global Science & Research"
+  },
+  {
+    "name": "H.E.A.T. International Congress",
+    "date": "2026-08-20",
+    "location": "Bangkok",
+    "topic": "Science & Research",
     "source": "10Times - Global Science & Research"
   },
   {
@@ -427,13 +441,6 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "Paper Middle East (PAPER ME)",
-    "date": "2026-09-15",
-    "location": "Cairo, Egypt",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Paper & Tissue Show (POS)",
     "date": "2026-09-21",
     "location": "Abu Dhabi, UAE",
@@ -441,9 +448,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "DairyTech India",
-    "date": "2026-08-21",
-    "location": "Bengaluru, India",
+    "name": "Paper Middle East (PAPER ME)",
+    "date": "2026-09-15",
+    "location": "Cairo, Egypt",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -451,6 +458,13 @@
     "name": "IndExpo Hyderabad",
     "date": "2026-09-04",
     "location": "Hyderabad, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "DairyTech India",
+    "date": "2026-08-21",
+    "location": "Bengaluru, India",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
