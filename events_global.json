@@ -14,7 +14,7 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "International Mattress Sub-Industry and Technologies Fair (IBIA Expo)",
+    "name": "IBIA Expo",
     "date": "2026-09-16",
     "location": "Bakırköy, Turkey",
     "topic": "Industrial Engineering",
@@ -80,6 +80,13 @@
     "name": "Pune Machine Tool Expo (PMTX)",
     "date": "2026-09-07",
     "location": "Pimpri-Chinchwad, India",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "FBC ASEAN",
+    "date": "2026-09-16",
+    "location": "Đông Hội, Vietnam",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -175,23 +182,9 @@
     "source": "10Times - Global Engineering"
   },
   {
-    "name": "FBC ASEAN",
-    "date": "2026-09-16",
-    "location": "Đông Hội, Vietnam",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
     "name": "Tanzania International Manufacturers Expo (TIMEXPO)",
     "date": "2026-09-24",
     "location": "Dar es Salaam, Tanzania",
-    "topic": "Industrial Engineering",
-    "source": "10Times - Global Engineering"
-  },
-  {
-    "name": "Cambodia International Machinery Industrial Fair",
-    "date": "2026-08-13",
-    "location": "Phnom Penh, Cambodia",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   },
@@ -206,6 +199,13 @@
     "name": "International Exhibition for Metal Working (AMB Stuttgart)",
     "date": "2026-09-15",
     "location": "Stuttgart, Germany",
+    "topic": "Industrial Engineering",
+    "source": "10Times - Global Engineering"
+  },
+  {
+    "name": "International Manufacturing Technology Show (IMTS)",
+    "date": "2026-09-14",
+    "location": "Chicago, USA",
     "topic": "Industrial Engineering",
     "source": "10Times - Global Engineering"
   }
